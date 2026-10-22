@@ -11,17 +11,17 @@ Deploying a Multi Service E-Commerce Platform (web, database, payment, search) w
 5. **Abdullah Ashraf** - DevOps Engineer
 
 ## Work Plan
-- **Phase One (Infrastructure):** Provisioning AWS Resources (EC2, RDS, S3, ELB, VPC) Using Terraform.
-- **Phase Two (Configuration & Containerization):** Configuring Servers via Ansible and Containerizing E-Commerce Microservices using Docker.
-- **Phase Three (Orchestration & CI/CD):** Deploying on Kubernetes with Auto Scaling and Automating the Build&Deploy Process Using Jenkins Pipelines.
-- **Phase Four (Monitoring & Reliability):** Setting up Prometheus & Grafana for Monitoring, Nginx as a Reverse proxy, and Implementing Automated Rollback Strategies.
+- **Phase One : (Infrastructure):** Provisioning AWS Resources (EC2, RDS, S3, ELB, VPC) Using Terraform.
+- **Phase Two : (Configuration & Containerization):** Configuring Servers via Ansible and Containerizing E-Commerce Microservices using Docker.
+- **Phase Three : (Orchestration & CI/CD):** Deploying on Kubernetes with Auto Scaling and Automating the Build&Deploy Process Using Jenkins Pipelines.
+- **Phase Four : (Monitoring & Reliability):** Setting up Prometheus & Grafana for Monitoring, Nginx as a Reverse proxy, and Implementing Automated Rollback Strategies.
 
 ## Roles & Responsibilities
-- **Ismail Magdy (Team Leader & Monitoring Lead):** System Integration, Setting up Prometheus & Grafana dashboards, Defining Alert Rules, and Team Coordination.
-- **Eyad Amr (Infrastructure Admin):** Writing and executing Terraform scripts for AWS Infrastructure.
-- **Mohaned Mohammed (Configuration & Routing Admin):** Writing Ansible Playbooks for Server Setup and Configuring Nginx Reverse Proxy.
-- **Mohamed Abdalkareem (Containerization & Orchestration Admin):** Creating Dockerfiles, Building Images, and Writing Kubernetes Manifests (Deployments, Services, HPA).
-- **Abdullah Ashraf (CI/CD Admin):** Building Jenkins Pipelines, Managing Git Workflows, and Configuring Automated Rollback Strategies.
+- **Ismail Magdy : (Team Leader & Monitoring Lead):** System Integration, Setting up Prometheus & Grafana dashboards, Defining Alert Rules, and Team Coordination.
+- **Eyad Amr : (Infrastructure Admin):** Writing and executing Terraform scripts for AWS Infrastructure.
+- **Mohaned Mohammed : (Configuration & Routing Admin):** Writing Ansible Playbooks for Server Setup and Configuring Nginx Reverse Proxy.
+- **Mohamed Abdalkareem : (Containerization & Orchestration Admin):** Creating Dockerfiles, Building Images, and Writing Kubernetes Manifests (Deployments, Services, HPA).
+- **Abdullah Ashraf : (CI/CD Admin):** Building Jenkins Pipelines, Managing Git Workflows, and Configuring Automated Rollback Strategies.
 
 ## KPIs (Key Performance Indicators)
 - **Deployment Frequency:** Successful Automated Deployments Triggered via GitHub Commits.
